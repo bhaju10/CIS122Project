@@ -56,15 +56,15 @@ void loop(){
     
     Motor_A.setSpeed(200);
     
+     Motor_D.run(BACKWARD);
+		// calls to activate motor number D to run backwards.
+    
+    Motor_D.setSpeed(200);
+    
     Motor_C.run(BACKWARD);
     // calls to activate motor number C to run backwards.
     
     Motor_C.setSpeed(200);
-    
-    Motor_D.run(BACKWARD);
-		// calls to activate motor number D to run backwards.
-    
-    Motor_D.setSpeed(200);
 
     Motor_A.run(FORWARD);
 		// calls to activate motor number A to run forward.
@@ -100,13 +100,13 @@ void loop(){
     Motor_A.setSpeed(200);
     // allows to set desired speed of the motor.
     
-    Motor_C.run(FORWARD);
-    
-    Motor_C.setSpeed(200);
-    
     Motor_D.run(FORWARD);
     
     Motor_D.setSpeed(200);
+    
+    Motor_C.run(FORWARD);
+    
+    Motor_C.setSpeed(200);
 
     Motor_A.run(BACKWARD);
     
